@@ -58,8 +58,8 @@ flowchart LR
 ## 3. Instrucciones de arranque
 
 ```bash
-git clone https://github.com/<tu-usuario>/IABD-5075-LabHadoop-Apellido1-Apellido2.git
-cd IABD-5075-LabHadoop-Apellido1-Apellido2/docker
+git clone https://github.com/<tu-usuario>/IABD-5075-LabHadoop-Jimenez-Fuentes.git
+cd IABD-5075-LabHadoop-Jimenez-Fuentes/docker
 
 docker compose config --quiet     # valida la sintaxis del IaC
 docker compose up -d              # levanta los 6 servicios
@@ -111,7 +111,7 @@ El detalle, las salidas de terminal y las respuestas a las cuatro cuestiones té
 ## 5. Estructura del repositorio
 
 ```
-IABD-5075-LabHadoop-Apellido1-Apellido2/
+IABD-5075-LabHadoop-Jimenez-Fuentes/
 ├── .gitignore                       # excluye *.dat, *.log, tmp/ y basura del SO
 ├── README.md
 ├── docker/
@@ -123,14 +123,14 @@ IABD-5075-LabHadoop-Apellido1-Apellido2/
 │   ├── 03_simulacion_fallo_datanode2.png
 │   └── 04_yarn_wordcount_8088.png
 └── informe/
-    └── Apellido1_Apellido2_InformeLabHadoop.pdf
+    └── Jimenez_Fuentes_InformeLabHadoop.pdf
 ```
 
 > El fichero de prueba de 150 MiB (`telemetria_bruta.dat`) solo existe dentro del contenedor y está excluido por `.gitignore`, porque supera el límite de 100 MiB por fichero de GitHub.
 
 ## 6. Autoría
 
-- **Autor:** Pablo Apellido1 Apellido2
+- **Autor:** Pablo Jiménez Fuentes
 - **Programa:** Máster en Inteligencia Artificial y Big Data, Centro FP Superior Cámara de Comercio de Sevilla
 - **Módulo:** 5074/5075 · Big Data Aplicado
 - **Fecha:** noviembre de 2026
